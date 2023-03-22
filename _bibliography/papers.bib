@@ -25,7 +25,7 @@
 }
 
 @article{DBLP:journals/corr/abs-2104-14297,
-  abbr        = {Pre-print},
+  abbr        = {ICASSP},
   author      = {Gao, Yan and
                Parcollet, Titouan and
                Fernandez-Marques, Javier and
@@ -39,6 +39,13 @@
   bibtex_show = {true},
   year        = {2021},
   html        = {https://arxiv.org/abs/2104.14297}
+}
+@article{qiu2021zerofl,
+  abbr = {ICLR},
+  title={ZeroFL: Efficient On-Device Training for Federated Learning with Local Sparsity},
+  author={Qiu, Xinchi and Fernandez-Marques, Javier and Porto Buarque de Gusmão, Pedro and Gao, Yan and Parcollet, Titouan and Lane, Nicholas Donald},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2022}
 }
 @article{DBLP:journals/corr/abs-2007-14390,
   abbr        = {Pre-print},
@@ -60,7 +67,7 @@
 }
 
 @article{saputra2021graph,
-  abbr        = {Pre-Print},
+  abbr        = {T-RO},
   title       = {Graph-based Thermal-Inertial SLAM with Probabilistic Neural Networks},
   author      = {Risqi U. Saputra, Muhamad and
                Xiaoxuan Lu, Chris and
@@ -68,7 +75,7 @@
                Wang, Bing and
                Markham, Andrew and
                Trigoni, Niki },
-  journal     = {arXiv preprint arXiv:2104.07196},
+  journal     = {IEEE Transactions on Robotics (T-RO)},
   abstract    = {Simultaneous Localization and Mapping (SLAM) system typically employ vision-based sensors to observe the surrounding environment. However, the performance of such systems highly depends on the ambient illumination conditions. In scenarios with adverse visibility or in the presence of airborne particulates (e.g. smoke, dust, etc.), alternative modalities such as those based on thermal imaging and inertial sensors are more promising. In this paper, we propose the first complete thermal-inertial SLAM system which combines neural abstraction in the SLAM front end with robust pose graph optimization in the SLAM back end. We model the sensor abstraction in the front end by employing probabilistic deep learning parameterized by Mixture Density Networks (MDN). Our key strategies to successfully model this encoding from thermal imagery are the usage of normalized 14-bit radiometric data, the incorporation of hallucinated visual (RGB) features, and the inclusion of feature selection to estimate the MDN parameters. To enable a full SLAM system, we also design an efficient global image descriptor which is able to detect loop closures from thermal embedding vectors. We performed extensive experiments and analysis using three datasets, namely self-collected ground robot and handheld data taken in indoor environment, and one public dataset (SubT-tunnel) collected in underground tunnel. Finally, we demonstrate that an accurate thermal-inertial SLAM system can be realized in conditions of both benign and adverse visibility. },
   bibtex_show = {true},
   selected    = {true},
@@ -76,7 +83,7 @@
   year        = {2021}
 }
 @article{almalioglu2019selfvio,
-  abbr        = {Pre-Print},
+  abbr        = {Neural Networks},
   title       = {SelfVIO: Self-supervised Deep Monocular Visual-Inertial Odometry and Depth Estimation},
   author      = {Almalioglu,Yasin and
                Turan, Mehmet and
@@ -86,13 +93,13 @@
                Markham, Andrew and
                Trigoni, Niki},
   abstract    = {In the last decade, numerous supervised deep learning approaches requiring large amounts of labeled data have been proposed for visual-inertial odometry (VIO) and depth map estimation. To overcome the data limitation, self-supervised learning has emerged as a promising alternative, exploiting constraints such as geometric and photometric consistency in the scene. In this study, we introduce a novel self-supervised deep learning-based VIO and depth map recovery approach (SelfVIO) using adversarial training and self-adaptive visual-inertial sensor fusion. SelfVIO learns to jointly estimate 6 degrees-of-freedom (6-DoF) ego-motion and a depth map of the scene from unlabeled monocular RGB image sequences and inertial measurement unit (IMU) readings. The proposed approach is able to perform VIO without the need for IMU intrinsic parameters and/or the extrinsic calibration between the IMU and the camera. estimation and single-view depth recovery network. We provide comprehensive quantitative and qualitative evaluations of the proposed framework comparing its performance with state-of-the-art VIO, VO, and visual simultaneous localization and mapping (VSLAM) approaches on the KITTI, EuRoC and Cityscapes datasets. Detailed comparisons prove that SelfVIO outperforms state-of-the-art VIO approaches in terms of pose estimation and depth recovery, making it a promising approach among existing methods in the literature. },
-  journal     = {arXiv preprint arXiv:1911.09968},
-  url         = {https://arxiv.org/abs/1911.09968},
+  journal     = {Neural Networks},
+  url         = {https://www.sciencedirect.com/science/article/pii/S0893608022000752},
   bibtex_show = {true},
-  year        = {2021}
+  year        = {2022}
 }
 @inproceedings{mathur2021device,
-  abbr        = {MLSys},
+  abbr        = {MLSys Workshop},
   title       = {On-device Federated Learning with Flower},
   author      = {Mathur, Akhil and Beutel, Daniel J. and Porto Buarque de Gusmao, Pedro and Fernandez-Marques, Javier and Topal, Taner and Qiu, Xinchi and Parcollet, Titouan and Gao, Yan and Lane, Nicholas D},
   abstract    = {Federated Learning (FL) allows edge devices to collaboratively learn a shared prediction model while keeping their training data on the device, thereby decoupling the ability to do machine learning from the need to store data in the cloud. Despite the algorithmic advancements in FL, the support for on-device training of FL algorithms on edge devices remains poor. In this paper, we present an exploration of on-device FL on various smartphones and embedded devices using the Flower framework. We also evaluate the system costs of on-device FL and discuss how this quantification could be used to design more efficient FL algorithms.},
