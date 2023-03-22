@@ -71,10 +71,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: pedropgusmao # your GitHub user name
-gitlab_username: pedropgusmao # your GitHub user name
+gitlab_username: # your GitHub user name
 twitter_username: pedropbg # your Twitter handle
 linkedin_username: pedropgusmao # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: TfdVttMAAAAJ # your Google Scholar ID
 orcid_id: 0000-0002-7072-9898 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username

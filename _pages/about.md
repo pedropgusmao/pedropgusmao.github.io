@@ -7,7 +7,7 @@ description: Senior Research Associate, Machine Learning Systems Lab, University
 profile:
   align: right
   image: pedro.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   #address: >
   #  <p> Department of Computer Science and Technology</p>
   #  <p> William Gates Building </p>

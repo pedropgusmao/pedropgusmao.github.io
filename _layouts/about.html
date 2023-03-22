@@ -28,7 +28,11 @@ layout: default
       path=profile_image_path
       class=profile_image_class
       alt=page.profile.image -%}
+      <div class="contact-icons" style="text-align:center;">
+        {% include social.html %}
+      </div>
       {% endif -%}
+
       {%- if page.profile.address %}
       <div class="address">
         {{ page.profile.address }}
@@ -36,7 +40,6 @@ layout: default
       {%- endif %}
     </div>
     {%- endif %}
-
     <div class="clearfix">
       {{ content }}
     </div>
