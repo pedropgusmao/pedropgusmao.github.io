@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: Information and materials for courses I teach. 
 nav: true
-nav_order: 5
+nav_order: 3
 ---
 
 ### Deep Neural Network (Software Engineering Programme)

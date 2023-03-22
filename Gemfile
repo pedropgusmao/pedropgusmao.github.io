@@ -17,14 +17,8 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
-<<<<<<< HEAD
-    gem 'kramdown-parser-gfm'
-    gem 'htmlcompressor'
-    gem 'htmlbeautifier'
-=======
 end
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
->>>>>>> 6b3b92ca06dfa2864ad7b5cbdbc90ad4d36e13b5
 end
