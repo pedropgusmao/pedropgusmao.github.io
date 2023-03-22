@@ -6,12 +6,21 @@ description: Senior Research Associate, Machine Learning Systems Lab, University
 
 profile:
   align: right
+<<<<<<< HEAD
   image: pedro.jpg
   #address: >
   #  <p> Department of Computer Science and Technology</p>
   #  <p> William Gates Building </p>
   #  <p> 15 JJ Thomson Avenue </p>
   #  <p> Cambridge CB3 0FD, UK</p>
+=======
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  address: >
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
+>>>>>>> 6b3b92ca06dfa2864ad7b5cbdbc90ad4d36e13b5
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
