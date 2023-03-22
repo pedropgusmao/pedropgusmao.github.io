@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.portobgusmao.com//sitemap.xml
+Sitemap: https://portobgusmao.com/sitemap.xml
