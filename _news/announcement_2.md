@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:sparkles: Our work **Decentralized Training of 3D Lane Detection with Automatic Labeling Using HD Maps** has been accepterd at the Vehicular Technology Conferece - VTC2023-Spring.
+:sparkles: Our work **Decentralized Training of 3D Lane Detection with Automatic Labeling Using HD Maps** was **accepted** at the Vehicular Technology Conferece - **VTC2023-Spring**.
