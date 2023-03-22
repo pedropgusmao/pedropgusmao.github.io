@@ -70,25 +70,12 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
 github_username: pedropgusmao # your GitHub user name
 gitlab_username: pedropgusmao # your GitHub user name
 twitter_username: pedropbg # your Twitter handle
 linkedin_username: pedropgusmao # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: 0000-0002-7072-9898 # your ORCID ID
-=======
-github_username: # your GitHub user name
-gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
-telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
-semanticscholar_id: # your Semantic Scholar ID
-whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
->>>>>>> 6b3b92ca06dfa2864ad7b5cbdbc90ad4d36e13b5
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -114,12 +101,6 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 contact_note: >
   The best way to reach me is via e-mail.
 
-<<<<<<< HEAD
-google_analytics: # your google-analytics ID (format: UA-XXXXXXXXX)
-google_site_verification: # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
-panelbear_analytics: # panelbear analytics site ID (format: XXXXXXXXX)
-=======
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
@@ -129,53 +110,22 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
->>>>>>> 6b3b92ca06dfa2864ad7b5cbdbc90ad4d36e13b5
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-blog_name: # your blog must have a name for it to show up in the nav bar
-blog_description: About Stuff.
-=======
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: blog # your blog must have a name for it to show up in the nav bar
+blog_description: Random thoughts
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
->>>>>>> 6b3b92ca06dfa2864ad7b5cbdbc90ad4d36e13b5
 permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
   enabled: true
 
-<<<<<<< HEAD
 # Comments
 disqus_shortname: # put your disqus shortname
-=======
-related_blog_posts:
-  enabled: true
-  max_related: 5
-
-# Giscus comments (RECOMMENDED)
-# Follow instructions on https://giscus.app/ to setup for your repo to fill out
-# the information below.
-giscus:
-  repo: alshedivat/al-folio      # <your-github-user-name>/<your-github-repo-name>
-  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
-  category: Comments             # name of the category under which discussions will be created
-  category_id: DIC_kwDOA5PmLc4CTBt6
-  mapping: title                 # identify discussions by post title
-  strict: 1                      # use strict identification mode
-  reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
-  input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
-  emit_metadata: 0
-  lang: en
-
-# Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
->>>>>>> 6b3b92ca06dfa2864ad7b5cbdbc90ad4d36e13b5
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -209,11 +159,6 @@ news_limit: 5 # leave blank to include all the news in the `_news` folder
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-<<<<<<< HEAD
-highlight_theme_light: github # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native # https://github.com/jwarby/jekyll-pygments-themes
-=======
->>>>>>> 6b3b92ca06dfa2864ad7b5cbdbc90ad4d36e13b5
 kramdown:
   input: GFM
   syntax_highlighter_opts:
@@ -257,11 +202,8 @@ defaults:
       path: "assets/**/*.*"
     values:
       sitemap: false
-<<<<<<< HEAD
 # Extras
 github: [metadata]
-=======
->>>>>>> 6b3b92ca06dfa2864ad7b5cbdbc90ad4d36e13b5
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
@@ -294,14 +236,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 # -----------------------------------------------------------------------------
 
 scholar:
-<<<<<<< HEAD
   last_name: Porto Buarque de Gusmão
   first_name: [Pedro]
-=======
-
-  last_name: [Einstein]
-  first_name: [Albert, A.]
->>>>>>> 6b3b92ca06dfa2864ad7b5cbdbc90ad4d36e13b5
 
   style: apa
   locale: en
@@ -323,8 +259,6 @@ scholar:
 
   query: "@*"
 
-<<<<<<< HEAD
-=======
 badges: # Display different badges for your pulications
   altmetric_badge: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
   dimensions_badge: true # Dimensions badge (https://badge.dimensions.ai/)
@@ -349,7 +283,6 @@ external_links:
   exclude:
 
 
->>>>>>> 6b3b92ca06dfa2864ad7b5cbdbc90ad4d36e13b5
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
@@ -382,25 +315,6 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-enable_google_analytics: false # enables google analytics
-enable_panelbear_analytics: false # enables panelbear analytics
-enable_google_verification: false # enables google site verification
-enable_bing_verification: false # enables bing site verification
-enable_masonry: true # enables automatic project cards arangement
-enable_math: true # enables math typesetting (uses MathJax)
-enable_tooltips:
-  false # enables automatic tooltip links generated
-  # for each section titles on pages and posts
-enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social:
-  true # enables displaying social links in the
-  # navbar on the about page
-enable_project_categories:
-  true # enables categorization of projects into
-  # multiple categories
-enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-=======
 enable_google_analytics:    false  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: false  # enables google site verification
@@ -416,7 +330,6 @@ enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
->>>>>>> 6b3b92ca06dfa2864ad7b5cbdbc90ad4d36e13b5
 
 # -----------------------------------------------------------------------------
 # Library versions
