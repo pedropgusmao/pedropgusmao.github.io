@@ -2,7 +2,7 @@
 layout: about
 title: Home 
 permalink: /
-description: Senior Research Associate, Machine Learning Systems Lab, University of Cambridge.
+description: Lecturer in Computer Science, NICE Research Group, University of Surrey.
 
 profile:
   align: right
@@ -19,4 +19,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a Senior Research Associate at the [Cambridge Machine Learning Systems Lab](https://mlsys.cst.cam.ac.uk/). My research interests include Computer Vision, Navigation under adverse conditions, Sensor Fusion, and Distributed Machine Learning. 
+I'm a Lecturer in Computer Science at the [University of Surrey](https://surrey.ac.uk/). My research interests include Computer Vision, Navigation under adverse conditions, Sensor Fusion, and Distributed Machine Learning. 
