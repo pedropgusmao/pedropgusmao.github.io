@@ -24,9 +24,9 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a Lecturer in Computer Science at the [University of Surrey](https://surrey.ac.uk/). My research interests include Computer Vision, Navigation under adverse conditions, Sensor Fusion, and Distributed Machine Learning. 
+I'm a Lecturer in Computer Science at the [University of Surrey](https://surrey.ac.uk/). My research interests include Distributed Machine Learning, Machine Learning, Computer Vision. 
