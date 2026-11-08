@@ -1,0 +1,14 @@
+- name: Email
+  url: mailto:p.gusmao@surrey.ac.uk
+- name: Google Scholar
+  url: https://scholar.google.com/citations?user=TfdVttMAAAAJ
+- name: DBLP
+  url: https://dblp.org/pid/88/10808
+- name: ORCID
+  url: https://orcid.org/0000-0002-7072-9898
+- name: GitHub
+  url: https://github.com/pedropgusmao
+- name: Bluesky
+  url: https://bsky.app/profile/pedropbg.bsky.social
+- name: Surrey profile
+  url: https://www.surrey.ac.uk/people/pedro-porto-buarque-de-gusmao

@@ -1,0 +1,396 @@
+# One entry per paper, newest first (the publications page groups them by year in this order).
+# type: journal | conference | workshop | preprint | submitted | thesis
+# bibtex: optional; shown under a "BibTeX" toggle on the publications page
+# selected: true  -> also listed on the home page
+# Write your own name exactly as in `self_names` in _config.yml so it is shown in bold.
+
+- title: "Federated Learning for Traffic Flow Prediction With Synthetic Data Augmentation"
+  authors: [Fermin Orozco, Hongkai Wen, Pedro P. B. de Gusmão, Johan Wahlström, Man Luo]
+  venue: IEEE Open Journal of Intelligent Transportation Systems, 7, 445–459
+  abbr: OJ-ITS
+  year: 2026
+  type: journal
+  url: https://doi.org/10.1109/OJITS.2026.3659531
+  bibtex: |
+    @article{orozco2026federated,
+      title     = {Federated Learning for Traffic Flow Prediction With Synthetic Data Augmentation},
+      author    = {Orozco, Fermin and Wen, Hongkai and Porto Buarque de Gusm{\~a}o, Pedro and Wahlstr{\"o}m, Johan and Luo, Man},
+      journal   = {IEEE Open Journal of Intelligent Transportation Systems},
+      volume    = {7},
+      pages     = {445--459},
+      year      = {2026},
+      doi       = {10.1109/OJITS.2026.3659531}
+    }
+
+- title: "Robust Federated Learning Aggregation for Highly Heterogeneous Data"
+  authors: []  # add the author list
+  venue: Submitted to Cluster Computing (Springer)
+  abbr: Submitted
+  year: 2026
+  type: submitted
+
+- title: "Omni-C: Compressing Heterogeneous Modalities into a Single Dense Encoder"
+  authors: [Kin Wai Lau, Yasar Abbas Ur Rehman, Lai-Man Po, Pedro P. B. de Gusmão]
+  venue: arXiv preprint arXiv:2603.05528
+  abbr: arXiv
+  year: 2026
+  type: preprint
+  url: https://doi.org/10.48550/arXiv.2603.05528
+
+- title: "Efficient Federated Model Aggregation through Neural Velocity"
+  authors: [Gianluca Dalmasso, Pedro P. B. de Gusmão, Attilio Fiandrotti, Marco Grangetto]
+  venue: "FLEdge-AI '25: Proceedings of the Federated Learning and Edge AI for Privacy and Mobility, ACM MobiCom"
+  abbr: FLEdge-AI
+  year: 2025
+  type: workshop
+  url: https://doi.org/10.1145/3737899.3768519
+  bibtex: |
+    @inproceedings{dalmasso2025efficient,
+      title     = {Efficient Federated Model Aggregation through Neural Velocity},
+      author    = {Dalmasso, Gianluca and Porto Buarque de Gusm{\~a}o, Pedro and Fiandrotti, Attilio and Grangetto, Marco},
+      booktitle = {Proceedings of the 2025 Federated Learning and Edge AI for Privacy and Mobility (FLEdge-AI '25)},
+      publisher = {Association for Computing Machinery},
+      year      = {2025},
+      doi       = {10.1145/3737899.3768519}
+    }
+
+- title: "CATCHFed: Efficient Unlabeled Data Utilization for Semi-Supervised Federated Learning in Limited Labels Environments"
+  authors: [Byoungjun Park, Pedro P. B. de Gusmão, Dongjin Ji, Minhoe Kim]
+  venue: arXiv preprint arXiv:2511.11778
+  abbr: arXiv
+  year: 2025
+  type: preprint
+  url: https://doi.org/10.48550/arXiv.2511.11778
+
+- title: "Improving Semi-Supervised Federated Learning with Limited Labeled Data via Adaptive Batchsize and Pseudo Labeling"
+  authors: [Byoungjun Park, Pedro P. B. de Gusmão, Minhoe Kim]
+  venue: 2025 IEEE 22nd Consumer Communications & Networking Conference (CCNC)
+  abbr: CCNC
+  year: 2025
+  type: conference
+  url: https://doi.org/10.1109/CCNC54725.2025.10976067
+  bibtex: |
+    @inproceedings{park2025improving,
+      title     = {Improving Semi-Supervised Federated Learning with Limited Labeled Data via Adaptive Batchsize and Pseudo Labeling},
+      author    = {Park, Byoungjun and Porto Buarque de Gusm{\~a}o, Pedro and Kim, Minhoe},
+      booktitle = {2025 IEEE 22nd Consumer Communications \& Networking Conference (CCNC)},
+      publisher = {IEEE},
+      year      = {2025},
+      doi       = {10.1109/CCNC54725.2025.10976067}
+    }
+
+- title: "Increased Chloroplast Occupancy in Bundle Sheath Cells of Rice hap3H Mutants Revealed by Chloro-Count: A New Deep Learning–Based Tool"
+  authors: [J. Lambret-Frotte, Pedro P. B. de Gusmão, G. Smith, S.-F. Lo, S.-M. Yu, R. Hendron, S. Kelly, J. Langdale]
+  venue: New Phytologist, 245(4), 1512–1527
+  abbr: New Phytol.
+  year: 2024
+  type: journal
+  url: https://doi.org/10.1111/nph.20332
+  bibtex: |
+    @article{lambretfrotte2024increased,
+      title     = {Increased Chloroplast Occupancy in Bundle Sheath Cells of Rice {hap3H} Mutants Revealed by {Chloro-Count}: A New Deep Learning--Based Tool},
+      author    = {Lambret-Frotte, J. and Porto Buarque de Gusm{\~a}o, Pedro and Smith, G. and Lo, S.-F. and Yu, S.-M. and Hendron, R. and Kelly, S. and Langdale, J.},
+      journal   = {New Phytologist},
+      volume    = {245},
+      number    = {4},
+      pages     = {1512--1527},
+      year      = {2024},
+      doi       = {10.1111/nph.20332}
+    }
+
+- title: "FedRepOpt: Gradient Re-parametrized Optimizers in Federated Learning"
+  authors: [Kin Wai Lau, Yasar Abbas Ur Rehman, Pedro P. B. de Gusmão, Lai-Man Po, Lan Ma, Yuyang Xie]
+  venue: "Computer Vision – ACCV 2024, Lecture Notes in Computer Science, vol. 15479"
+  abbr: ACCV
+  year: 2024
+  type: conference
+  url: https://doi.org/10.1007/978-981-96-0966-6_5
+  bibtex: |
+    @inproceedings{lau2024fedrepopt,
+      title     = {{FedRepOpt}: Gradient Re-parametrized Optimizers in Federated Learning},
+      author    = {Lau, Kin Wai and Rehman, Yasar Abbas Ur and Porto Buarque de Gusm{\~a}o, Pedro and Po, Lai-Man and Ma, Lan and Xie, Yuyang},
+      booktitle = {Computer Vision -- ACCV 2024},
+      editor    = {Cho, Minsu and Laptev, Ivan and Tran, Du and Yao, Angela and Zha, Hongbin},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {15479},
+      publisher = {Springer, Singapore},
+      year      = {2025},
+      doi       = {10.1007/978-981-96-0966-6_5}
+    }
+
+- title: "FedAnchor: Enhancing Federated Semi-Supervised Learning with Label Contrastive Loss for Unlabeled Clients"
+  authors: [Xinchi Qiu, Yan Gao, Lorenzo Sani, Heng Pan, Wanru Zhao, Pedro P. B. de Gusmão, Mina Alibeigi, Alex Iacob, Nicholas D. Lane]
+  venue: arXiv preprint arXiv:2402.10191
+  abbr: arXiv
+  year: 2024
+  type: preprint
+  url: https://doi.org/10.48550/arXiv.2402.10191
+
+- title: "A First Look into the Carbon Footprint of Federated Learning"
+  authors: [Xinchi Qiu, Titouan Parcollet, Javier Fernández-Marqués, Pedro P. B. de Gusmão, Yan Gao, Daniel J. Beutel, Taner Topal, Akhil Mathur, Nicholas D. Lane]
+  venue: Journal of Machine Learning Research, 24
+  abbr: JMLR
+  year: 2023
+  type: journal
+  url: https://jmlr.org/papers/v24/21-0445.html
+  selected: true
+
+- title: "FedVal: Different Good or Different Bad in Federated Learning"
+  authors: [Viktor Valadi, Xinchi Qiu, Pedro P. B. de Gusmão, Nicholas D. Lane, Mina Alibeigi]
+  venue: 32nd USENIX Security Symposium
+  abbr: USENIX Sec.
+  year: 2023
+  type: conference
+  url: https://www.usenix.org/conference/usenixsecurity23/presentation/valadi
+  selected: true
+
+- title: "L-DAWA: Layer-wise Divergence Aware Weight Aggregation in Federated Self-Supervised Visual Representation Learning"
+  authors: [Yasar Abbas Ur Rehman, Yan Gao, Pedro P. B. de Gusmão, Mina Alibeigi, Jiajun Shen, Nicholas D. Lane]
+  venue: IEEE/CVF International Conference on Computer Vision
+  abbr: ICCV
+  year: 2023
+  type: conference
+  url: https://doi.org/10.1109/ICCV51070.2023.01509
+  selected: true
+
+- title: "Decentralized Training of 3D Lane Detection with Automatic Labeling Using HD Maps"
+  authors: [Yadong Mao, Zhuqi Xiao, Che-Tsung Lin, Pedro P. B. de Gusmão, Nicholas D. Lane, Christopher Zach, Mina Alibeigi]
+  venue: 97th IEEE Vehicular Technology Conference (VTC2023-Spring)
+  abbr: VTC
+  year: 2023
+  type: conference
+  url: https://doi.org/10.1109/VTC2023-Spring57618.2023.10199451
+
+- title: "Can Fair Federated Learning Reduce the Need for Personalisation?"
+  authors: [Alex Iacob, Pedro P. B. de Gusmão, Nicholas D. Lane]
+  venue: 3rd Workshop on Machine Learning and Systems (EuroMLSys)
+  abbr: EuroMLSys
+  year: 2023
+  type: workshop
+  url: https://doi.org/10.1145/3578356.3592592
+
+- title: "High-throughput Simulation of Federated Learning via Resource-Aware Client Placement"
+  authors: [Lorenzo Sani, Pedro P. B. de Gusmão, Alex Iacob, Wanru Zhao, Xinchi Qiu, Yan Gao, Javier Fernández-Marqués, Nicholas D. Lane]
+  venue: arXiv preprint arXiv:2306.17453
+  abbr: arXiv
+  year: 2023
+  type: preprint
+  url: https://doi.org/10.48550/arXiv.2306.17453
+
+- title: "vFedSec: Efficient Secure Aggregation for Vertical Federated Learning via Secure Layer"
+  authors: [Xinchi Qiu, Heng Pan, Wanru Zhao, Chenyang Ma, Pedro P. B. de Gusmão, Nicholas D. Lane]
+  venue: arXiv preprint arXiv:2305.16794
+  abbr: arXiv
+  year: 2023
+  type: preprint
+  url: https://doi.org/10.48550/arXiv.2305.16794
+
+- title: "Privacy in Multimodal Federated Human Activity Recognition"
+  authors: [Alex Iacob, Pedro P. B. de Gusmão, Nicholas D. Lane, Armand K. Koupai, Mohammud Junaid Bocus, Raúl Santos-Rodríguez, Robert J. Piechocki, Ryan McConville]
+  venue: arXiv preprint arXiv:2305.12134
+  abbr: arXiv
+  year: 2023
+  type: preprint
+  url: https://doi.org/10.48550/arXiv.2305.12134
+
+- title: "Efficient Vertical Federated Learning with Secure Aggregation"
+  authors: [Xinchi Qiu, Heng Pan, Wanru Zhao, Chenyang Ma, Pedro P. B. de Gusmão, Nicholas D. Lane]
+  venue: arXiv preprint arXiv:2305.11236
+  abbr: arXiv
+  year: 2023
+  type: preprint
+  url: https://doi.org/10.48550/arXiv.2305.11236
+
+- title: "ZeroFL: Efficient On-Device Training for Federated Learning with Local Sparsity"
+  authors: [Xinchi Qiu, Javier Fernández-Marqués, Pedro P. B. de Gusmão, Yan Gao, Titouan Parcollet, Nicholas D. Lane]
+  venue: International Conference on Learning Representations
+  abbr: ICLR
+  year: 2022
+  type: conference
+  url: https://openreview.net/forum?id=2sDQwC_hmnM
+  selected: true
+
+- title: "Federated Self-supervised Learning for Video Understanding"
+  authors: [Yasar Abbas Ur Rehman, Yan Gao, Jiajun Shen, Pedro P. B. de Gusmão, Nicholas D. Lane]
+  venue: European Conference on Computer Vision
+  abbr: ECCV
+  year: 2022
+  type: conference
+  url: https://doi.org/10.1007/978-3-031-19821-2_29
+  selected: true
+
+- title: "End-to-End Speech Recognition from Federated Acoustic Models"
+  authors: [Yan Gao, Titouan Parcollet, Salah Zaiem, Javier Fernández-Marqués, Pedro P. B. de Gusmão, Daniel J. Beutel, Nicholas D. Lane]
+  venue: IEEE International Conference on Acoustics, Speech and Signal Processing
+  abbr: ICASSP
+  year: 2022
+  type: conference
+  url: https://doi.org/10.1109/ICASSP43922.2022.9747161
+
+- title: "Match to Win: Analysing Sequences Lengths for Efficient Self-Supervised Learning in Speech and Audio"
+  authors: [Yan Gao, Javier Fernández-Marqués, Titouan Parcollet, Pedro P. B. de Gusmão, Nicholas D. Lane]
+  venue: IEEE Spoken Language Technology Workshop
+  abbr: SLT
+  year: 2022
+  type: conference
+  url: https://doi.org/10.1109/SLT54892.2023.10023410
+
+- title: "Protea: Client Profiling within Federated Systems using Flower"
+  authors: [Wanru Zhao, Xinchi Qiu, Javier Fernández-Marqués, Pedro P. B. de Gusmão, Nicholas D. Lane]
+  venue: 1st ACM Workshop on Data Privacy and Federated Learning Technologies for Mobile Edge Network
+  abbr: FedEdge
+  year: 2022
+  type: workshop
+  url: https://doi.org/10.1145/3556557.3557950
+
+- title: "Graph-Based Thermal-Inertial SLAM With Probabilistic Neural Networks"
+  authors: [Muhamad Risqi U. Saputra, Chris Xiaoxuan Lu, Pedro P. B. de Gusmão, Bing Wang, Andrew Markham, Niki Trigoni]
+  venue: IEEE Transactions on Robotics
+  abbr: T-RO
+  year: 2022
+  type: journal
+  url: https://doi.org/10.1109/TRO.2021.3120036
+
+- title: "SelfVIO: Self-supervised Deep Monocular Visual-Inertial Odometry and Depth Estimation"
+  authors: [Yasin Almalioglu, Mehmet Turan, Muhamad Risqi U. Saputra, Pedro P. B. de Gusmão, Andrew Markham, Niki Trigoni]
+  venue: Neural Networks
+  abbr: Neural Netw.
+  year: 2022
+  type: journal
+  url: https://doi.org/10.1016/j.neunet.2022.03.005
+
+- title: "Secure Aggregation for Federated Learning in Flower"
+  authors: [Kwing Hei Li, Pedro P. B. de Gusmão, Daniel J. Beutel, Nicholas D. Lane]
+  venue: 2nd ACM International Workshop on Distributed Machine Learning (DistributedML)
+  abbr: DistributedML
+  year: 2021
+  type: workshop
+  url: https://doi.org/10.1145/3488659.3493776
+
+- title: "On-device Federated Learning with Flower"
+  authors: [Akhil Mathur, Daniel J. Beutel, Pedro P. B. de Gusmão, Javier Fernández-Marqués, Taner Topal, Xinchi Qiu, Titouan Parcollet, Yan Gao, Nicholas D. Lane]
+  venue: On-device Intelligence Workshop at MLSys
+  abbr: MLSys WS
+  year: 2021
+  type: workshop
+  url: https://arxiv.org/abs/2104.03042
+
+- title: "RadarLoc: Learning to Relocalize in FMCW Radar"
+  authors: [Wei Wang, Pedro P. B. de Gusmão, Bo Yang, Andrew Markham, Niki Trigoni]
+  venue: IEEE International Conference on Robotics and Automation
+  abbr: ICRA
+  year: 2021
+  type: conference
+  url: https://doi.org/10.1109/ICRA48506.2021.9560858
+
+- title: "Flower: A Friendly Federated Learning Research Framework"
+  authors: [Daniel J. Beutel, Taner Topal, Akhil Mathur, Xinchi Qiu, Javier Fernández-Marqués, Yan Gao, Lorenzo Sani, Kwing Hei Li, Titouan Parcollet, Pedro P. B. de Gusmão, Nicholas D. Lane]
+  venue: arXiv preprint arXiv:2007.14390
+  abbr: arXiv
+  year: 2020
+  type: preprint
+  url: https://arxiv.org/abs/2007.14390
+  selected: true
+
+- title: "milliEgo: Single-chip mmWave Radar Aided Egomotion Estimation via Deep Sensor Fusion"
+  authors: [Chris Xiaoxuan Lu, Muhamad Risqi U. Saputra, Peijun Zhao, Yasin Almalioglu, Pedro P. B. de Gusmão, Changhao Chen, Ke Sun, Niki Trigoni, Andrew Markham]
+  venue: 18th ACM Conference on Embedded Networked Sensor Systems
+  abbr: SenSys
+  year: 2020
+  type: conference
+  url: https://arxiv.org/abs/2006.02266
+
+- title: "DeepTIO: A Deep Thermal-Inertial Odometry With Visual Hallucination"
+  authors: [Muhamad Risqi U. Saputra, Pedro P. B. de Gusmão, Chris Xiaoxuan Lu, Yasin Almalioglu, Stefano Rosa, Changhao Chen, Johan Wahlström, Wei Wang, Andrew Markham, Niki Trigoni]
+  venue: IEEE Robotics and Automation Letters, 5(2)
+  abbr: RA-L
+  year: 2020
+  type: journal
+  url: https://doi.org/10.1109/LRA.2020.2969170
+
+- title: "Sensor Fusion for Magneto-Inductive Navigation"
+  authors: [Johan Wahlström, Manon Kok, Pedro P. B. de Gusmão, Traian E. Abrudan, Niki Trigoni, Andrew Markham]
+  venue: IEEE Sensors Journal, 20(1)
+  abbr: Sensors J.
+  year: 2020
+  type: journal
+  url: https://doi.org/10.1109/JSEN.2019.2942451
+
+- title: "Distilling Knowledge From a Deep Pose Regressor Network"
+  authors: [Muhamad Risqi U. Saputra, Pedro P. B. de Gusmão, Yasin Almalioglu, Andrew Markham, Niki Trigoni]
+  venue: IEEE/CVF International Conference on Computer Vision
+  abbr: ICCV
+  year: 2019
+  type: conference
+  url: https://doi.org/10.1109/ICCV.2019.00035
+
+- title: "DeepPCO: End-to-End Point Cloud Odometry through Deep Parallel Neural Network"
+  authors: [Wei Wang, Muhamad Risqi U. Saputra, Peijun Zhao, Pedro P. B. de Gusmão, Bo Yang, Changhao Chen, Andrew Markham, Niki Trigoni]
+  venue: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  abbr: IROS
+  year: 2019
+  type: conference
+  url: https://doi.org/10.1109/IROS40897.2019.8967756
+
+- title: "Learning Monocular Visual Odometry through Geometry-Aware Curriculum Learning"
+  authors: [Muhamad Risqi U. Saputra, Pedro P. B. de Gusmão, Sen Wang, Andrew Markham, Niki Trigoni]
+  venue: International Conference on Robotics and Automation
+  abbr: ICRA
+  year: 2019
+  type: conference
+  url: https://doi.org/10.1109/ICRA.2019.8793581
+
+- title: "GANVO: Unsupervised Deep Monocular Visual Odometry and Depth Estimation with Generative Adversarial Networks"
+  authors: [Yasin Almalioglu, Muhamad Risqi U. Saputra, Pedro P. B. de Gusmão, Andrew Markham, Niki Trigoni]
+  venue: International Conference on Robotics and Automation
+  abbr: ICRA
+  year: 2019
+  type: conference
+  url: https://doi.org/10.1109/ICRA.2019.8793512
+
+- title: "Map-aided Navigation for Emergency Searches"
+  authors: [Johan Wahlström, Pedro P. B. de Gusmão, Andrew Markham, Niki Trigoni]
+  venue: 15th International Conference on Distributed Computing in Sensor Systems
+  abbr: DCOSS
+  year: 2019
+  type: conference
+  url: https://doi.org/10.1109/DCOSS.2019.00027
+
+- title: "Feature Extraction using MPEG-CDVS and Deep Learning with Application to Robotic Navigation and Image Classification"
+  authors: [Pedro P. B. de Gusmão]
+  venue: PhD thesis, Politecnico di Torino
+  abbr: PhD
+  year: 2017
+  type: thesis
+
+- title: "Fast Training of Convolutional Neural Networks via Kernel Rescaling"
+  authors: [Pedro P. B. de Gusmão, Gianluca Francini, Skjalg Lepsøy, Enrico Magli]
+  venue: arXiv preprint arXiv:1610.03623
+  abbr: arXiv
+  year: 2016
+  type: preprint
+  url: https://arxiv.org/abs/1610.03623
+
+- title: "Gabor Filter Based Image Representation for Object Classification"
+  authors: [Syed Tahir Hussain Rizvi, Gianpiero Cabodi, Pedro P. B. de Gusmão, Gianluca Francini]
+  venue: International Conference on Control, Decision and Information Technologies
+  abbr: CoDIT
+  year: 2016
+  type: conference
+  url: https://doi.org/10.1109/CoDIT.2016.7593635
+
+- title: "Loop Detection in Robotic Navigation using MPEG CDVS"
+  authors: [Pedro P. B. de Gusmão, Stefano Rosa, Enrico Magli, Skjalg Lepsøy, Gianluca Francini]
+  venue: 17th IEEE International Workshop on Multimedia Signal Processing
+  abbr: MMSP
+  year: 2015
+  type: workshop
+  url: https://doi.org/10.1109/MMSP.2015.7340871
+
+- title: "Statistical Modelling of Outliers for Fast Visual Search"
+  authors: [Skjalg Lepsøy, Gianluca Francini, Giovanni Cordara, Pedro P. B. de Gusmão]
+  venue: IEEE International Conference on Multimedia and Expo
+  abbr: ICME
+  year: 2011
+  type: conference
+  url: https://doi.org/10.1109/ICME.2011.6012184

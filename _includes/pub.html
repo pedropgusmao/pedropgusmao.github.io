@@ -1,0 +1,19 @@
+{%- assign p = include.p -%}
+<li class="pub" data-type="{{ p.type }}">
+  <span class="pub-abbr">{{ p.abbr }}</span>
+  <div class="pub-body">
+    <p class="pub-title">{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</p>
+    {%- if p.authors.size > 0 %}
+    <p class="pub-authors">
+      {%- for a in p.authors -%}
+        {%- if site.self_names contains a -%}<strong>{{ a }}</strong>{%- else -%}{{ a }}{%- endif -%}
+        {%- unless forloop.last -%}, {% endunless -%}
+      {%- endfor -%}
+    </p>
+    {%- endif %}
+    <p class="pub-venue">{{ p.venue }}{% if include.show_year %}, {{ p.year }}{% endif %}</p>
+    {%- if p.bibtex and include.show_year == nil %}
+    <details class="pub-bib"><summary>BibTeX</summary><pre><code>{{ p.bibtex | strip | xml_escape }}</code></pre></details>
+    {%- endif %}
+  </div>
+</li>

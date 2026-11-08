@@ -1,0 +1,249 @@
+/* Tokens ------------------------------------------------------------ */
+:root {
+  --paper: #f4f6f8;
+  --ink: #1b2430;
+  --muted: #5a6473;
+  --rule: #d6dce3;
+  --accent: #24466b;
+  --accent-soft: #e3eaf2;
+
+  --serif: "Iowan Old Style", "Charter", "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --measure: 44rem;
+  --gutter: 8.5rem;
+  --space: 1.6rem;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #11161c;
+    --ink: #e4e8ed;
+    --muted: #97a1ae;
+    --rule: #27303a;
+    --accent: #9dbbe0;
+    --accent-soft: #1b2633;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper: #11161c;
+  --ink: #e4e8ed;
+  --muted: #97a1ae;
+  --rule: #27303a;
+  --accent: #9dbbe0;
+  --accent-soft: #1b2633;
+  color-scheme: dark;
+}
+
+/* Base -------------------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 1.0625rem/1.65 var(--serif);
+  font-feature-settings: "kern", "onum";
+  text-rendering: optimizeLegibility;
+}
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+h1, h2, h3 { font-weight: 600; line-height: 1.2; margin: 0; }
+p { margin: 0 0 1em; }
+
+.wrap {
+  width: 100%;
+  max-width: calc(var(--measure) + 2rem);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.skip {
+  position: absolute; left: 1rem; top: -3rem;
+  background: var(--ink); color: var(--paper);
+  padding: .4rem .8rem; font-family: var(--sans); font-size: .875rem;
+  z-index: 10;
+}
+.skip:focus { top: 1rem; }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+/* Header and footer ------------------------------------------------- */
+.site-header { border-bottom: 1px solid var(--rule); }
+.header-inner {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 1rem; flex-wrap: wrap;
+  padding-top: 1.1rem; padding-bottom: 1.1rem;
+}
+.wordmark {
+  font-family: var(--serif); font-size: 1.05rem; font-weight: 600;
+  color: var(--ink); text-decoration: none;
+}
+.site-header ul {
+  display: flex; gap: 1.4rem; margin: 0; padding: 0; list-style: none;
+  font-family: var(--sans); font-size: .9375rem;
+}
+.site-header nav a { color: var(--muted); text-decoration: none; }
+.site-header nav a:hover { color: var(--ink); }
+.site-header nav a[aria-current="page"] { color: var(--ink); box-shadow: inset 0 -2px 0 var(--accent); }
+
+main.wrap { padding-top: 3.5rem; padding-bottom: 4rem; }
+main > section + section { margin-top: 3.25rem; }
+
+.site-footer { border-top: 1px solid var(--rule); color: var(--muted); }
+.footer-inner {
+  padding-top: 1.4rem; padding-bottom: 2rem;
+  font-family: var(--sans); font-size: .8125rem;
+}
+.footer-inner p { margin: 0 0 .25rem; }
+.footer-inner a { color: inherit; }
+
+/* Section headings -------------------------------------------------- */
+main h2 {
+  font-size: 1.3rem;
+  padding-bottom: .5rem;
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.page-title { font-size: clamp(2rem, 5vw, 2.6rem); font-weight: 400; letter-spacing: -0.01em; margin-bottom: .6rem; }
+.page-lede { color: var(--muted); max-width: 38rem; }
+
+/* Intro ------------------------------------------------------------- */
+.intro {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  align-items: end;
+  margin-bottom: 2.5rem;
+}
+.portrait {
+  width: 9.5rem; height: 9.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--accent-soft);
+}
+.name {
+  font-size: clamp(2.4rem, 7.5vw, 3.7rem);
+  font-weight: 400;
+  line-height: 1.02;
+  letter-spacing: -0.015em;
+  margin-bottom: .9rem;
+}
+.role { font-size: 1.15rem; margin-bottom: 1rem; }
+.role a { color: inherit; }
+.links {
+  display: flex; flex-wrap: wrap; gap: .35rem 1.1rem;
+  margin: 0; padding: 0; list-style: none;
+  font-family: var(--sans); font-size: .875rem;
+}
+
+@media (min-width: 40rem) {
+  .intro { grid-template-columns: 1fr auto; }
+  .intro .portrait { order: 2; width: 11rem; height: 11rem; }
+}
+
+.prose { max-width: 40rem; }
+
+/* Research themes --------------------------------------------------- */
+.themes { margin: 0; display: grid; gap: 1.1rem; }
+.themes dt { font-weight: 600; }
+.themes dd { margin: .15rem 0 0; color: var(--ink); max-width: 40rem; }
+
+/* News -------------------------------------------------------------- */
+.news { list-style: none; margin: 0; padding: 0; }
+.news li {
+  display: grid; grid-template-columns: 1fr; gap: .1rem;
+  padding: .6rem 0;
+}
+@media (min-width: 36rem) {
+  .news li { grid-template-columns: 5.5rem 1fr; gap: 1rem; }
+}
+.news li + li { border-top: 1px solid var(--rule); }
+.news time {
+  font-family: var(--sans); font-size: .8125rem; color: var(--muted);
+  font-variant-numeric: tabular-nums; padding-top: .2rem; white-space: nowrap;
+}
+
+/* Publications ------------------------------------------------------ */
+.pubs { list-style: none; margin: 0; padding: 0; }
+.pub {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .15rem;
+  padding: .75rem 0;
+}
+.pub-abbr {
+  font-family: var(--sans); font-size: .75rem; font-weight: 600;
+  letter-spacing: .02em; color: var(--accent);
+}
+.pub-body { min-width: 0; }
+.pub-body p { margin: 0; }
+.pub-title { font-weight: 600; line-height: 1.35; }
+.pub-title a { color: var(--ink); text-decoration-color: var(--rule); }
+.pub-title a:hover { color: var(--accent); text-decoration-color: currentColor; }
+.pub-authors { color: var(--muted); font-size: .9375rem; line-height: 1.5; margin-top: .2rem !important; }
+.pub-authors strong { color: var(--ink); font-weight: 600; }
+.pub-venue { font-style: italic; font-size: .9375rem; color: var(--muted); }
+
+/* On wide screens the venue hangs in the left margin, so titles stay on one edge. */
+@media (min-width: 64rem) {
+  .pubs { margin-left: calc(-1 * var(--gutter)); }
+  .pub { grid-template-columns: calc(var(--gutter) - 1.5rem) 1fr; gap: 1.5rem; }
+  .pub-abbr { text-align: right; padding-top: .22rem; }
+}
+
+.pub-bib { margin-top: .35rem; font-family: var(--sans); font-size: .8125rem; }
+.pub-bib summary { cursor: pointer; color: var(--accent); width: max-content; }
+.pub-bib pre {
+  margin: .5rem 0 0; padding: .75rem .9rem; overflow-x: auto;
+  background: var(--accent-soft); border-radius: 4px;
+  font: .75rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.more { margin-top: 1rem; font-family: var(--sans); font-size: .9375rem; }
+
+.year + .year { margin-top: 2.25rem; }
+.year-label {
+  font-size: 1.15rem;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.year[hidden] { display: none; }
+.pub[hidden] { display: none; }
+
+.filter {
+  display: inline-flex; margin: 1rem 0 2.25rem;
+  border: 1px solid var(--rule); border-radius: 6px; overflow: hidden;
+  font-family: var(--sans);
+}
+.filter button {
+  font: inherit; font-size: .875rem;
+  background: transparent; color: var(--muted);
+  border: 0; padding: .45rem .9rem; cursor: pointer;
+}
+.filter button + button { border-left: 1px solid var(--rule); }
+.filter button[aria-pressed="true"] { background: var(--accent-soft); color: var(--ink); }
+
+/* Teaching ---------------------------------------------------------- */
+.prose h2 { margin-top: 2.5rem; }
+.prose h2:first-child { margin-top: 1.5rem; }
+.course-meta { font-family: var(--sans); font-size: .875rem; color: var(--muted); margin-top: -.4rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; transition: none !important; }
+}

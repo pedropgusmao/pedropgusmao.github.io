@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2324466b'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' text-anchor='middle' fill='%23f4f6f8'%3EG%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="{{ '/' | relative_url }}">{{ site.author.short }}</a>
+      <nav aria-label="Main">
+        <ul>
+          {% for item in site.nav %}
+          {% assign active = false %}
+          {% if item.url == '/' and page.url == '/' %}{% assign active = true %}{% endif %}
+          {% if item.url != '/' and page.url contains item.url %}{% assign active = true %}{% endif %}
+          <li><a href="{{ item.url | relative_url }}"{% if active %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>{{ site.author.role }}, <a href="{{ site.author.affiliation_url }}">{{ site.author.affiliation }}</a></p>
+      <p>Updated {{ site.time | date: "%B %Y" }}. No cookies, analytics or third-party requests.</p>
+    </div>
+  </footer>
+  {% if page.scripts %}{% for s in page.scripts %}<script src="{{ s | relative_url }}" defer></script>{% endfor %}{% endif %}
+</body>
+</html>
