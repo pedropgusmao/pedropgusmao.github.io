@@ -23,11 +23,24 @@
     }
 
 - title: "Robust Federated Learning Aggregation for Highly Heterogeneous Data"
-  authors: []  # add the author list
-  venue: Submitted to Cluster Computing (Springer)
-  abbr: Submitted
+  authors: [Jang Hoon Bae, Byoungjun Park, Pedro P. B. de Gusmão, Minchul Kim, Minhoe Kim]
+  venue: Cluster Computing, 29(15), 875
+  abbr: Clust. Comput.
   year: 2026
-  type: submitted
+  type: journal
+  url: https://doi.org/10.1007/s10586-026-06716-3
+  bibtex: |
+    @article{bae2026robust,
+      title     = {Robust Federated Learning Aggregation for Highly Heterogeneous Data},
+      author    = {Bae, Jang Hoon and Park, Byoungjun and Porto Buarque de Gusm{\~a}o, Pedro and Kim, Minchul and Kim, Minhoe},
+      journal   = {Cluster Computing},
+      volume    = {29},
+      number    = {15},
+      pages     = {875},
+      year      = {2026},
+      publisher = {Springer},
+      doi       = {10.1007/s10586-026-06716-3}
+    }
 
 - title: "Omni-C: Compressing Heterogeneous Modalities into a Single Dense Encoder"
   authors: [Kin Wai Lau, Yasar Abbas Ur Rehman, Lai-Man Po, Pedro P. B. de Gusmão]
