@@ -1,17 +1,3 @@
 # Newest first. `date` is shown as month and year. Markdown is allowed in `text`.
-- date: 2025-11-01
-  text: "*Efficient Federated Model Aggregation through Neural Velocity* presented at the Federated Learning and Edge AI for Privacy and Mobility workshop (FLEdge-AI 2025)."
-- date: 2025-05-01
-  text: "Co-organised the Workshop on Secure, Private and Fair Federated Optimization and Learning at IEEE CAI 2025."
-- date: 2025-01-01
-  text: "*Improving Semi-Supervised Federated Learning with Limited Labeled Data via Adaptive Batchsize and Pseudo Labeling* presented at IEEE CCNC 2025."
-- date: 2024-12-01
-  text: "*FedRepOpt: Gradient Re-parametrized Optimizers in Federated Learning* presented at ACCV 2024."
-- date: 2023-09-01
-  text: "Joined the [NICE Research Group](https://www.surrey.ac.uk/department-computer-science/research/nature-inspired-computing-and-engineering-research-group) at the University of Surrey as a Lecturer in Computer Science."
-- date: 2023-08-01
-  text: "*L-DAWA: Layer-wise Divergence Aware Weight Aggregation in Federated Self-Supervised Visual Representation Learning* accepted at ICCV 2023."
-- date: 2023-03-31
-  text: "Our team won first prize in the UK–US [Privacy-Enhancing Technologies Prize Challenges](https://petsprizechallenges.com/), announced at the Summit for Democracy. [UK government announcement](https://www.gov.uk/government/news/at-summit-for-democracy-the-united-kingdom-and-the-united-states-announce-winners-of-challenge-to-drive-innovation-in-privacy-enhancing-technologies)."
-- date: 2023-03-22
-  text: "*Decentralized Training of 3D Lane Detection with Automatic Labeling Using HD Maps* accepted at VTC2023-Spring."
+- date: 2026-11-01
+  text: PhD Scholarship opportunity soon
